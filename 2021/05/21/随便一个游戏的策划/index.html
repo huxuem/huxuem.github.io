@@ -1,0 +1,43 @@
+<!DOCTYPE html><html lang="Chinese"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="index, follow"><title>随便一个游戏的策划 • testBlog</title><meta name="description" content="随便一个游戏的策划 - John Doe"><link rel="icon" href="/favicon.svg"><link rel="stylesheet" href="https://unpkg.com/nanoreset@3.0.1/nanoreset.min.css"><link rel="stylesheet" href="/css/theme.css"><link rel="search" type="application/opensearchdescription+xml" href="/atom.xml" title="testBlog"><meta name="generator" content="Hexo 5.4.0"></head><body><div class="wrap" id="barba-wrapper"><header><h1 class="branding"><a href="/" title="testBlog"><img class="logo-image" src="/logo.svg" alt="logo"></a></h1><ul class="nav nav-list"><li class="nav-list-item"><a class="nav-list-link no-barba" href="/" target="_self">HOME</a></li><li class="nav-list-item"><a class="nav-list-link no-barba" href="/about" target="_self">ABOUT</a></li><li class="nav-list-item"><a class="nav-list-link no-barba" href="/archives" target="_self">ARCHIVES</a></li><li class="nav-list-item"></ul></header><div class="barba-container"><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">随便一个游戏的策划</h1><div class="post-info"><a></a>2021-05-21</div><div class="post-content"><h1 id="概念部分"><a href="#概念部分" class="headerlink" title="概念部分"></a>概念部分</h1><p>**1.**<strong>介绍</strong>：在《？？》中，玩家作为教师与网友，与多个学生在知识与日常生活层面上对话，从而培养学生成长</p>
+<p>**2.**<strong>概念美术/参考</strong>：中国式家长、拣·爱</p>
+<p>**3.**<strong>类型</strong>：模拟养成</p>
+<p>背景（数值参考）现实</p>
+<p>**4.**<strong>目标平台</strong>：pc</p>
+<h1 id="技术部分"><a href="#技术部分" class="headerlink" title="技术部分"></a>技术部分</h1><h2 id="1-游戏核心玩法"><a href="#1-游戏核心玩法" class="headerlink" title="1.游戏核心玩法"></a>1.游戏核心玩法</h2><p>核心玩法为对话，白天课上对话形式参考gal，夜间（网友）为聊天窗口</p>
+<p>课后/夜间聊天使用关键词组合聊天。</p>
+<p>玩家有关键词库，可以选择1至多个关键词，拖动至发送窗口，组合与学生进行对话。关键词库通过与学生交流获得或初始自带。</p>
+<p>单个周目共3大回合，每回合12天</p>
+<p><strong>1.1</strong> <strong>白天-老师</strong></p>
+<p>玩家在白天作为老师给学生授课，分为课上与课后两个回合。</p>
+<p>a.课上：</p>
+<p>l 存在时长（体力）限制，总课堂时间45分钟，讲解时间共30分钟（前15分钟为夜间所选内容讲解）</p>
+<p>l 在讲解时间内，学生在课上会提出问题让玩家统一讲解（消耗讲解时间），玩家需尽量选择急需讲解（最多人提出/…）的问题进行讲解。</p>
+<p>l 学生在课堂上有专心/疑惑/走神等状态（通过立绘表现），受所选讲课进度、当前问题理解程度、近期事件、睡眠时长等因素影响。</p>
+<p>l 玩家可以随时点击学生立绘进行对当前讲解问题的提问，可提高对该问题的理解程度或提高学生压力（消耗讲解时间）</p>
+<p>b.课后：</p>
+<p>l 存在约谈总人数限制，在这一回合玩家可以选择约谈学生，下发在上一天夜间所收到的任务（制作黑板报/…）或作为老师与学生谈心。</p>
+<p><strong>1.2</strong> <strong>夜间-网友</strong></p>
+<p>玩家在夜间选择主题备课，以及作为网友与学生谈心。夜间为无体力限制单一回合</p>
+<p>界面为第一人称注视电脑屏幕，随时间变化窗外月亮位置变化（月亮“下山”不结束回合） </p>
+<p>l 玩家在回合开始需要选择第二天讲课进度（少/中/多），根据所选进度需要搜集不同内容的资料。</p>
+<p>l 搜集资料：在电脑界面搜索引擎内以关键字库信息查找，选择符合要求的资料拖至备课文件夹内。资料搜集量影响第二天讲课质量，资料量增多则讲课质量高可能性增大</p>
+<p>l 学生会在玩家搜集资料时随时（符合其睡眠时间）向“网友”玩家发起会话，与学生的会话结果影响学生对事件倾向、第二天约谈选择、学生状态（压力程度/…）等</p>
+<h2 id="2-单位"><a href="#2-单位" class="headerlink" title="2.单位"></a>2.单位</h2><p>学生：</p>
+<p>l 每个学生有独立的各方面能力、专注力、性格、当前压力等属性（玩家不可见），随对话结果可发生变化。</p>
+<p>l 当前压力达到限制则学生暂时休学，只能通过网友对话框进行对话，一定回合数内压力未清至安全线以下则该学生退学。</p>
+<p>l 聊天窗口存在单独好感度，初始值受学生属性影响（可见）。好感度清零时对话结束，学生当前压力提升。</p>
+<p>l 存在校外突发事件可导致学生属性改变</p>
+<p>l 周目结束会给出学生高考分数，分数高的学生会给玩家笔记（夜间备课资料）</p>
+<h1 id="系统分析"><a href="#系统分析" class="headerlink" title="系统分析"></a>系统分析</h1><p><img src="file:///C:/TMP/msohtmlclip1/01/clip_image002.jpg" alt="img"></p>
+<p>核心循环：</p>
+<p>行动力循环无正负</p>
+<p>正（问题选项正向）成绩-》属性-》成绩，-压力-》关键词库-》问题选项-》-压力，</p>
+<p>属性-》问题选项-》事件（正向）-》属性，成绩-》备课-》课上-》备课，</p>
+<p>-压力-》关键词库-》备课-》课上-》-压力，备课-》课上-》成绩-》备课</p>
+<p>负（问题选项负向）压力-》问题选项-》聊天好感度-》+压力</p>
+<p>属性-》问题选项-》-属性，属性-》问题选项-》事件-》属性,课上-》压力-》备课-》课上</p>
+<p>属性-》问题选项-》-聊天好感度-》属性</p>
+<p>循环方向大幅度受问题选项影响</p>
+</div></article></div></main><footer><div class="paginator"><a class="prev" href="/2021/05/21/%E5%BC%82%E6%98%9F%E5%B7%A5%E5%8E%82%E7%B3%BB%E7%BB%9F/">prev</a><a class="next" href="/2021/04/24/%E6%88%98%E6%96%97%E6%96%B9%E5%9D%97%E5%89%A7%E5%9C%BA%E5%85%B3%E5%8D%A1%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B/">next</a></div><div class="copyright"><p>&copy; 2021 <a href="http://example.com">John Doe</a><br>Powered by <a href="https://hexo.io/" rel="noreferrer" target="_blank">Hexo</a></p></div></footer></div></div><script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js"></script><script>document.addEventListener('DOMContentLoaded', function() {
+    Barba.Pjax.start()
+})</script></body></html>
